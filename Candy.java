@@ -15,7 +15,7 @@ public class Candy extends DessertItem {
 	}
 	public String toString() {
 		String sspace="";
-		int lengthOfSpace=DessertShoppe.width-name.length();
+		int lengthOfSpace=DessertShoppe.width-name.length()-4;
 		for(int i=0;i<lengthOfSpace;i++){
 			sspace+=" ";
 		}
