@@ -27,7 +27,7 @@ public class Sundae extends IceCream {
 			s=sn+sspace+ DessertShoppe.cents2dollarsAndCents(getCost())+"\n";
 		}
 		else{
-			s=sn.substring(0,max)+"    "+ DessertShoppe.cents2dollarsAndCents(getCost())+"\n"+sn.substring(max+1)+"\n";// 4 spaces
+			s=sn.substring(0,max)+"        "+ DessertShoppe.cents2dollarsAndCents(getCost())+"\n"+sn.substring(max+1)+"\n";// 4 spaces
 		}
 		return s;
 	}
