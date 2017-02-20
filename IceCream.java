@@ -11,7 +11,7 @@ public class IceCream extends DessertItem {
 	}
 	public IceCream(){}
 	public String toString() {
-		int lengthOfSpace=DessertShoppe.width-name.length();
+		int lengthOfSpace=DessertShoppe.width-name.length()-4;
 		String sspace="";
 		for(int i=0;i<lengthOfSpace;i++){
 			sspace+=" ";
