@@ -15,7 +15,7 @@ public class Cookie extends DessertItem{
 		this.pricePerDozen=pricePerDozen;
 	}
 	public String toString() {
-		int lengthOfSpace=DessertShoppe.width-name.length();
+		int lengthOfSpace=DessertShoppe.width-name.length()-4;
 		String sspace="";
 		for(int i=0;i<lengthOfSpace;i++){
 			sspace+=" ";
