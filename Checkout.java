@@ -42,7 +42,7 @@ public class Checkout {
 			s3 += itemList.get(i).toString();
 		}
 		String s4 = "\nTax                       " + DessertShoppe.cents2dollarsAndCents(totalTax()) + "\n";  //23 spaces
-		String s5 = "Total Cost                " + DessertShoppe.cents2dollarsAndCents(totalTax() + totalCost())+ "\n"; //16 spaces
+		String s5 = "Total Cost               " + DessertShoppe.cents2dollarsAndCents(totalTax() + totalCost())+ "\n"; //15 spaces
 		return s1 + s2 + s3 + s4 + s5;
 	}
 
