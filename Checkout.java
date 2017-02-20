@@ -41,8 +41,8 @@ public class Checkout {
 		for (int i = 0; i < itemList.size(); i++) {
 			s3 += itemList.get(i).toString();
 		}
-		String s4 = "\nTax              " + DessertShoppe.cents2dollarsAndCents(totalTax()) + "\n";
-		String s5 = "Total Cost       " + DessertShoppe.cents2dollarsAndCents(totalTax() + totalCost())+ "\n";
+		String s4 = "\nTax                       " + DessertShoppe.cents2dollarsAndCents(totalTax()) + "\n";  //23 spaces
+		String s5 = "Total Cost                " + DessertShoppe.cents2dollarsAndCents(totalTax() + totalCost())+ "\n"; //16 spaces
 		return s1 + s2 + s3 + s4 + s5;
 	}
 
